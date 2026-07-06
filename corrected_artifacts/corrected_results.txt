@@ -1,0 +1,10 @@
+CORRECTED EXPERIMENT: genuine content-matched real(nature)-vs-AI, native 256 Q95 4:4:4
+train: SDv5 nature 891 vs ai 900
+test set           OPF15  BASE63  COMB78  n(re/ai)
+SDv5(in-dom)       0.882   0.890   0.934  346/400
+ADM                0.615   0.797   0.779  360/350
+GLIDE              0.665   0.659   0.807  356/350
+Midjourney         0.746   0.559   0.750  356/350
+Wukong             0.802   0.851   0.873  365/350
+VQDM               0.674   0.765   0.767  365/350
+mean(6 cross)      0.700   0.726

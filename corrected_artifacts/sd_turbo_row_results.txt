@@ -1,0 +1,5 @@
+MODERN-GENERATOR ROW (stabilityai/sd-turbo, 512 PNG, prompts 'photo of {class}' 1:1 with MJ-fold reals;
+detector: Midjourney LOGO fold, never saw these reals or this generator)  n=1000/1000
+  OPF-15   AUC 0.860 [0.844,0.876]
+  Base-63  AUC 0.908 [0.894,0.920]
+  Fusion   AUC 0.947 [0.938,0.955]

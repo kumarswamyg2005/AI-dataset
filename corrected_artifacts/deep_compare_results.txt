@@ -1,0 +1,11 @@
+DEEP BASELINES (zero-shot, MPS) on corrected content-matched real-vs-AI (native256 Q95 444, best-dir AUC)
+test set          NPR  FatFormer
+SD v1.5         0.536      0.804
+ADM             0.708      0.941
+GLIDE           0.652      0.857
+Midjourney      0.668      0.613
+Wukong          0.576      0.867
+VQDM            0.546      0.941
+mean(5 unseen)   0.630      0.844
+
+OUR methods (multi-gen leave-one-out): OPF 0.734  Base 0.887  Comb 0.900  (cross mean)

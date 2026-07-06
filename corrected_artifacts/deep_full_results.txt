@@ -1,0 +1,9 @@
+DEEP ZERO-SHOT, FULL SETS (all normalized images, best-direction AUC)
+family           NPR    FatF  n(re/ai)
+SD v1.5        0.503   0.839  1500/1500
+ADM            0.653   0.961  1500/1500
+GLIDE          0.624   0.908  1500/1500
+Midjourney     0.590   0.660  1500/1500
+Wukong         0.507   0.904  1500/1500
+VQDM           0.553   0.967  1500/1500
+mean 5 uns.    0.585   0.880

@@ -1,0 +1,40 @@
+JPEG-HISTORY CONTROL + BASE-189 (tuned cfg 1000/63/0.03, LOGO, native256 Q95 4:4:4)
+
+1a) PROBE - trained on standard fakes, tested vs history-matched fakes (Base-63):
+held-out      std AUC  jctl AUC    drop
+SD v1.5         0.924     0.850  -0.073
+ADM             0.883     0.821  -0.062
+GLIDE           0.940     0.844  -0.096
+Midjourney      0.867     0.826  -0.041
+Wukong          0.892     0.843  -0.049
+VQDM            0.914     0.858  -0.056
+
+1b) FULL CONTROL - history-matched fakes in train and test:
+held-out      OPF-15  Base-63  Fusion
+SD v1.5        0.901    0.905   0.948
+ADM            0.920    0.842   0.935
+GLIDE          0.926    0.975   0.966
+Midjourney     0.927    0.874   0.947
+Wukong         0.859    0.872   0.923
+VQDM           0.905    0.889   0.926
+mean 5 uns.    0.907    0.890   0.939
+
+2) BASE-189 (Y+Cr+Cb spectrum) vs Base-63, standard protocol:
+held-out      Base-63  Base-189  Fus15+189
+SD v1.5         0.924     0.976      0.980
+ADM             0.883     0.900      0.898
+GLIDE           0.940     0.957      0.959
+Midjourney      0.867     0.881      0.881
+Wukong          0.892     0.956      0.962
+VQDM            0.914     0.841      0.835
+mean 5 uns.     0.899     0.907      0.907
+
+1c) PROBE - OPF-15, trained on standard fakes, tested vs history-matched fakes:
+held-out      std AUC  jctl AUC    drop
+SD v1.5         0.837     0.600  -0.237
+ADM             0.721     0.686  -0.035
+GLIDE           0.711     0.454  -0.257
+Midjourney      0.814     0.514  -0.300
+Wukong          0.758     0.611  -0.148
+VQDM            0.683     0.706  +0.023
+mean drop      -0.159

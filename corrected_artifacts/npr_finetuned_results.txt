@@ -1,0 +1,10 @@
+NPR FINE-TUNED on our fair protocol (LOGO: init NPR.pth, 4 ep, lr 1e-4, b32,
+rand224+flip from normalized 256s; test = held-out generator, center 224)
+held-out     NPR-ft AUC
+SD v1.5           0.919
+ADM               0.810
+GLIDE             0.960
+Midjourney        0.820
+Wukong            0.848
+VQDM              0.704
+mean 5 uns.       0.828

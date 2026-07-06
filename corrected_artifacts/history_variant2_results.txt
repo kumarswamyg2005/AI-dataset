@@ -1,0 +1,9 @@
+HISTORY VARIANT 2 (cv2/libjpeg encoder, prior Q in [70,90]) - probe with std-trained models
+held-out      B63 std  B63 v2    drop |  OPF std  OPF v2    drop
+SD v1.5         0.924   0.677  -0.247 |    0.837   0.441  -0.396
+ADM             0.883   0.673  -0.210 |    0.721   0.532  -0.189
+GLIDE           0.940   0.675  -0.265 |    0.711   0.310  -0.401
+Midjourney      0.867   0.714  -0.153 |    0.814   0.409  -0.405
+Wukong          0.892   0.713  -0.179 |    0.758   0.459  -0.299
+VQDM            0.914   0.685  -0.229 |    0.683   0.564  -0.118
+mean drop                      -0.214 |                   -0.302
